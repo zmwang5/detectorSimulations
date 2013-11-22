@@ -323,7 +323,7 @@ G4int DetectionSystemPaces::AddSiliconDeadLayer()
   }
   
   //vis attributes
-  G4VisAttributes* silicon_dead_layer_vis_att = new G4VisAttributes(G4Colour(0.0,1.0,0.0));
+  G4VisAttributes* silicon_dead_layer_vis_att = new G4VisAttributes(G4Colour(1.0,0.0,0.0));
   silicon_dead_layer_vis_att->SetVisibility(true);
   
   //dead layer
